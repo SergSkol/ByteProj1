@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logoipsum</title>
     <!-- reset std styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" /> -->
     <!-- connect to google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,25 +21,25 @@
 </head>
 <body>
     <header class="header">
-        <div class="container header_flex">
+        <div class="container header_flex" id="header">
             <div>
-                <a href="">
+                <a href="https://www.figma.com/file/UIJ4wC2Yx9619TT2pU9mdn/Logoipsum?node-id=0%3A1">
                     <img src="./img/Logo Color.svg" alt="logo">
                 </a>
             </div>
             <nav class="nav">
                 <ul>
                     <li class="nav_li">
-                        <a class="nav_link" href="">Home</a>
+                        <a class="nav_link" href="#header">Home</a>
                     </li>
                     <li class="nav_li">
-                        <a class="nav_link" href="">Features</a>
+                        <a class="nav_link" href="#subscribe">Features</a>
                     </li>
                     <li class="nav_li">
-                        <a class="nav_link" href="">Pricing</a>
+                        <a class="nav_link" href="#plan">Pricing</a>
                     </li>
                     <li class="nav_li">
-                        <a class="nav_link" href="">Blog</a>
+                        <a class="nav_link" href="https://byte-education.com/">Blog</a>
                     </li>
                 </ul>
             </nav>
@@ -68,7 +68,56 @@
             </div>
         </div>
         <div>
-            <img src="./img/Hero 3D.png" alt="firstMan">
+            <img src="./img/Hero 3D.png" alt="first man">
+        </div>
+    </section>
+    <section class="container subscribe" id="subscribe">
+        <div>
+            <img src="./img/Man with pen 3D.png" alt="second man">
+        </div>
+        <div>
+            <h2 class="subscribe_title">Subscription index</h2>
+            <form>
+                <input class="input" type="email" placeholder="email@server.com">
+                <button class="button button_violet">Try</button>
+            </form>
+        </div>
+    </section>
+    <section class="container plan" id="plan">
+        <h2 class="plan_title">Get the right plan for future</h2>
+        <div class="plan_flex">
+            <div class="item">
+                <p class="item_text">Free</p>
+                <h3 class="item_title">Free</h3>
+                <ul>
+                    <li class="item_li">1 Website</li>
+                    <li class="item_li">5 GB Hosting</li>
+                    <li class="item_li">Limited Support</li>
+                </ul>
+                <button class="button button_item">Get Started</button>
+            </div>
+
+            <div class="item">
+                <p class="item_text">Premium</p>
+                <h3 class="item_title">$29<span>/month</span></h3>
+                <ul>
+                    <li class="item_li">10 Website</li>
+                    <li class="item_li">15 GB Hosting</li>
+                    <li class="item_li">Premium Support</li>
+                </ul>
+                <button class="button button_item">Get Started</button>
+            </div>
+
+            <div class="item">
+                <p class="item_text">Enterprise</p>
+                <h3 class="item_title">$49<span>/month</span></h3>
+                <ul>
+                    <li class="item_li">Unlimited Website</li>
+                    <li class="item_li">50 GB Hosting</li>
+                    <li class="item_li">Premium Support</li>
+                </ul>
+                <button class="button button_item">Get Started</button>
+            </div>
         </div>
     </section>
     <footer class="footer">
@@ -81,16 +130,16 @@
             <nav class="nav">
                 <ul>
                     <li class="nav_li">
-                        <a class="nav_link" href="">Home</a>
+                        <a class="nav_link" href="#header">Home</a>
                     </li>
                     <li class="nav_li">
-                        <a class="nav_link" href="">Features</a>
+                        <a class="nav_link" href="#subscribe">Features</a>
                     </li>
                     <li class="nav_li">
-                        <a class="nav_link" href="">Pricing</a>
+                        <a class="nav_link" href="#plan">Pricing</a>
                     </li>
                     <li class="nav_li">
-                        <a class="nav_link" href="">Blog</a>
+                        <a class="nav_link" href="https://byte-education.com/">Blog</a>
                     </li>
                 </ul>
             </nav>
